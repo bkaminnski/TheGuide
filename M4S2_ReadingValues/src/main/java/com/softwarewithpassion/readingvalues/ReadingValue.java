@@ -12,6 +12,14 @@ public class ReadingValue {
         this.timestamp = timestamp;
     }
 
+    public BigDecimal getValue() {
+        return value;
+    }
+
+    public LocalDateTime getTimestamp() {
+        return timestamp;
+    }
+
     @Override
     public String toString() {
         return "ReadingValue{" +

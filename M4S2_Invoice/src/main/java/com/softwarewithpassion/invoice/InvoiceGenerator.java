@@ -13,8 +13,8 @@ public class InvoiceGenerator {
         this.readingValuesGenerator = readingValuesGenerator;
     }
 
-    public Invoice generateInvoice(LocalDateTime sinceClosed, LocalDateTime untilClosed, int meterSerialNumber) {
-        List<ReadingValue> readingValues = readingValuesGenerator.generateReadingValues(sinceClosed, untilClosed, meterSerialNumber);
+    public Invoice generateInvoice(LocalDateTime sinceClosed, LocalDateTime untilOpen, int meterSerialNumber) {
+        List<ReadingValue> readingValues = readingValuesGenerator.generateReadingValues(sinceClosed, untilOpen, meterSerialNumber);
         NightPlan nightPlan = new NightPlan();
         nightPlan.addReadingValues(readingValues);
         List<InvoiceLine> invoiceLines = nightPlan.toInvoiceLines();

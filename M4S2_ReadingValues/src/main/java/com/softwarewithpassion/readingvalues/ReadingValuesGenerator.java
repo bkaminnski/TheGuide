@@ -9,10 +9,10 @@ import static java.math.BigDecimal.ONE;
 
 public class ReadingValuesGenerator {
 
-    public List<ReadingValue> generateReadingValues(LocalDateTime sinceClosed, LocalDateTime untilClosed, int meterSerialNumber) {
+    public List<ReadingValue> generateReadingValues(LocalDateTime sinceClosed, LocalDateTime untilOpen, int meterSerialNumber) {
         List<ReadingValue> readingValues = new ArrayList<>();
         LocalDateTime timestamp = sinceClosed;
-        while (timestamp.isBefore(untilClosed)) {
+        while (timestamp.isBefore(untilOpen)) {
             ReadingValue readingValue = generateReadingValue(timestamp, meterSerialNumber);
             readingValues.add(readingValue);
             timestamp = timestamp.plusHours(1);
