@@ -10,7 +10,7 @@ This project contains source code for the course *Software with Passion: The Gui
     1. Section 2, *Java Programming Part 2 - Programming Tasks* and *Part 3 - Unit Testing*: [Invoice](M4S2_Invoice)
     1. Section 3, *Spring Framework*: [Invoices in Spring](M4S3_InvoicesInSpring)
     1. Section 4, *Frontend Development*: [Invoices in Angular](M4S4_InvoicesInAngular)
-    1. Section 5, *Version Control System: Git*: [Hello Git (Alice)](M4S5_HelloGit_Alice), [Hello Git (Bob)](M4S5_HelloGit_Bob)
+    1. Section 5, *Version Control System: Git*: [Hello Git (Alice's project)](https://github.com/AliceSWP/HelloGit), [Hello Git (Bob's account)](https://github.com/BobSWP)
     1. Section 6, *Databases*: [SQL](M4S6_SQL)
 1. Module 5, *Advanced Software Development*
     1. Section 5, *Programming Task*: [Electricity Plans](M5S5_ElectricityPlans)
