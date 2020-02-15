@@ -43,7 +43,7 @@ public class NightPlan implements ElectricityPlan, InvoiceablePlan {
         return readingValues.stream()
                 .filter(r -> !readingValueDuringDay(r))
                 .map(ReadingValue::getValue)
-                .reduce(this.dayConsumption, BigDecimal::add);
+                .reduce(this.nightConsumption, BigDecimal::add);
     }
 
     private boolean readingValueDuringDay(ReadingValue r) {

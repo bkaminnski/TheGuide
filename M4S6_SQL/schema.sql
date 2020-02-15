@@ -65,6 +65,6 @@ INSERT INTO public.invoice_line(
 	
 INSERT INTO public.invoice_line(
 	id, description, total, invoice_id)
-	VALUES (nextval('invoice_line_id_seq'), 'Stabel Rate', 200.02, (select id from invoice where number = 'INV/002'));
+	VALUES (nextval('invoice_line_id_seq'), 'Stable Rate', 200.02, (select id from invoice where number = 'INV/002'));
 
 
