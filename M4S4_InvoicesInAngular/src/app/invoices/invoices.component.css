@@ -1,0 +1,11 @@
+.invoices-list {
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 15px;
+}
+
+.invoice-cell {
+  font-weight: bold;
+  border-top: 1px solid #999999;
+  background-color: #dddddd;
+}
