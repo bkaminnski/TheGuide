@@ -1,6 +1,6 @@
 # Software with Passion: The Guide
 
-This project contains source code for the course *Software with Passion: The Guide*.
+This project contains source code for my on-line course [Software with Passion: The Guide](https://courses.softwarewithpassion.com/p/theguide).
 
 1. Module 3, *The Project*
     1. Source code available in dedicated GitHub repository: [NrgyInvoicR](https://github.com/bkaminnski/NrgyInvoicR)
