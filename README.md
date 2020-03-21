@@ -1,9 +1,9 @@
-# Software with Passion: The Guide
+# How to Become a Software Developer From Scratch
 
-This project contains source code for my on-line course [Software with Passion: The Guide](https://courses.softwarewithpassion.com/p/theguide).
+This project contains source code for my on-line course [How to Become a Software Developer From Scratch](https://www.udemy.com/course/how-to-become-a-software-developer-from-scratch/?referralCode=FDFA9FC121D27830A15E).
 
 1. Module 3, *The Project*
-    1. Source code available in dedicated GitHub repository: [NrgyInvoicR](https://github.com/bkaminnski/NrgyInvoicR)
+    1. Source code available in a dedicated GitHub repository: [NrgyInvoicR](https://github.com/bkaminnski/NrgyInvoicR)
 1. Module 4, *Basics of Software Development*
     1. Section 2, *Java Programming Part 1 - Maven*: [Maven Hello World](M4S2_MavenHelloWorld)
     1. Section 2, *Java Programming Part 2 - Programming Tasks*: [Reading Values](M4S2_ReadingValues)
